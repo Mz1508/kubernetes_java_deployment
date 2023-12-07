@@ -8,6 +8,6 @@
  public class SimpleRestController {
      @GetMapping("/health")
      public String health() {
-         return "Hello User !! " + new Date();
+         return "Hello User this is Stockmanager !! " + new Date();
      }
  }
