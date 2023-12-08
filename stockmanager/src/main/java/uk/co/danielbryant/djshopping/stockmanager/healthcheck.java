@@ -1,4 +1,4 @@
- package com.example.springbootmanagementexample;
+
  package uk.co.danielbryant.djshopping.stockmanager;
  
  import java.util.Date;
