@@ -6,9 +6,9 @@
  import org.springframework.web.bind.annotation.RestController;
  
  @RestController
- public class health {
+ public class healthcheck {
      @GetMapping("/health")
-     public String health() {
+     public String healthcheck() {
          return "Hello User this is Stockmanager !! " + new Date();
      }
  }
